@@ -1,0 +1,43 @@
+
+/**
+ * Profile image component
+ */
+
+#yourScore {
+    color: rgb(220, 24, 82);
+    font-size: xx-large;
+}
+
+#yourUsername {
+    color: rgb(220, 24, 82);
+
+}
+
+#yourOrigin
+{
+    text-align: center;
+    overflow: Auto;
+    background-image: url(../page-pics/navbar.PNG);
+    color: rgb(245, 245, 245);
+    width: 80%;
+    height: 25%;
+   // margin: auto;
+    margin-top: 30px;
+    padding: 5px;
+    border: Solid 4px #ea1287;
+    border-radius: 10px;
+    scrollbar-base-color: #97e496;
+    scrollbar-arrow-color: #8ee4b4;
+    scrollbar-track-color: #659bff;
+    scrollbar-highlight-color: white;
+}
+
+#originsName {
+    text-align: left;
+
+}
+
+#originsNumber {
+    text-align: right;
+    color: #39ace7;
+}

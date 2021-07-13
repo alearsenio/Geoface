@@ -1,0 +1,244 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+}
+
+#logo {
+    margin-top: 1%;
+    /* bring your own prefixes */
+    text-align: center;
+}
+
+#geopic {
+}
+
+
+#logindiv {
+    text-align: center;
+}
+
+#description {
+    width: auto;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+
+input[type=text], input[type=password], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border-radius: 4px;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+    box-shadow: 0 0 13px royalblue;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px black;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../page-pics/background.PNG) no-repeat center top;
+    position: fixed;
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    opacity: 0.85;
+}
+
+#background2 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    position: fixed;
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.35;
+
+}
+
+.navbar {
+    background: url("../page-pics/navbar.PNG") !important;
+}
+
+#welcome {
+    width: auto;
+    text-align: center;
+    color: white;
+}
+
+.logoNav {
+    position: absolute;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#wrongPassword {
+    color: rgb(60,63,65);
+}
+
+#w3c {
+    opacity: 0.3;
+}
+
+
+#container {
+
+}
+
+
+#controls, #container, #puzzlearea {
+    width: 300px;
+}
+
+#controls {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.picArea2 {
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-bottom: 0%;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 10px solid deeppink;
+    border-radius: 50%;
+   /* border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+    border-image-slice: 1;*/
+
+}
+
+.picArea {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 180px;
+    height: 180px;
+    padding: 0px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; /* 5px black border */
+    border-radius: 50%;
+    /* border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+     border-image-slice: 1;*/
+
+}
+
+.tile {
+    /*background-image: url(user-pics/immagine.jpeg);*/
+    background-repeat: no-repeat;
+    border: 2px solid white;				/* 5px black border */
+    border-radius: 7px;
+    cursor: default;
+    height: 96px;							/* 90x90px tile, 5+5px border */
+    line-height: 96px;						/* 90x90px tile, 5+5px border */
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    width: 96px;
+}
+
+/* manages the highlight of the tile on hover (only when it can be moved) */
+.tile_ok:hover {
+    border-color: red;
+    color: red;
+}
+
+.buttondiv {
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    opacity: 0.85;
+}
+.choose {
+    border-radius: 20px;
+}
+
+.box-shadow--16dp {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .20), 0 6px 30px 5px rgba(0, 0, 0, .20), 0 8px 10px -5px rgba(0, 0, 0, .2)
+}
+
+.fa.fa-heart {
+    font-size:30px;
+    color:indianred;
+    text-shadow:2px 2px 4px #000000;
+    margin-right: 4px;
+}
+
+.lifes{
+    text-align: center;
+    margin-top: 5pt;
+}
+
+#homePlay {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#how {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #dc1852;
+}
+
+
+#tutorialPic {
+    align: center;
+    border-radius: 10px;
+    border-color: #ff374d;
+    border: 2px;
+}
+
+#tutorialDiv{
+
+    border: Solid 6px #ff374d;
+    border-radius: 10px;
+    padding: 0;
+    display: inline-block;
+    height: 50%;
+    text-shadow: #5fbae9;
+}
+
+#geoface {
+    color: #ff0b4f;
+}
+
+
+
